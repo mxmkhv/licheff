@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import styles from './BackLink.module.scss';
 import BackIcon from '../../assets/back.svg';
 
 const BackLink = props => {
   return (
     <div className={styles.link}>
-      <Link to='/'>
+      <AniLink to='/' cover direction='right' bg='#546e7a' duration={1}>
         <BackIcon />
-      </Link>
+      </AniLink>
     </div>
   );
 };

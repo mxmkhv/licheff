@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import Layout from '../components/Layout/Layout';
 import SEO from '../components/seo';
 import InteractionPanel from '../components/InteractionPanel/InteractionPanel';
@@ -24,7 +24,9 @@ const IndexPage = () => (
           interest in the field of brand perceptions. A self-driven hard worker and a passionate
           freethinker who is always looking forward to expand their worldview.
         </BodyText>
-        <Link to='/resume/'>View resume</Link>
+        <AniLink to='/resume/' cover direction='left' bg='#546e7a' duration={1}>
+          View resume
+        </AniLink>
       </div>
     </InteractionPanel>
     <Content>Scrollable content here</Content>
