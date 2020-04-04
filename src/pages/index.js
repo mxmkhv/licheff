@@ -11,7 +11,7 @@ import Logo from '../assets/logo.svg';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title='Home' />
+    <SEO title='Hello' />
     <InteractionPanel>
       <Logo />
       <div>

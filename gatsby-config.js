@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Todor Licheff`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Todor Lichev`,
+    description: `Portfolio site of Todor Lichev`,
     author: `Maxim Kehayov`
   },
   plugins: [
@@ -42,7 +42,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/favicon.png` // This path is relative to the root of the site.
+        icon: `src/assets/favicon.png`
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
