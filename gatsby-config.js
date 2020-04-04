@@ -28,7 +28,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Poppins:300, 500, 600', 'Merriweather']
+          families: ['Poppins:300, 500, 600', 'Merriweather:300']
         }
       }
     },
