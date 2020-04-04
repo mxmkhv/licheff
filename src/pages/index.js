@@ -6,6 +6,7 @@ import InteractionPanel from '../components/InteractionPanel/InteractionPanel';
 import Label from '../components/Label/Label';
 import BodyText from '../components/BodyText/BodyText';
 import Content from '../components/Content/Content';
+import SocialLinks from '../components/SocialLinks/SocialLinks';
 import Logo from '../assets/logo.svg';
 
 const IndexPage = () => (
@@ -27,6 +28,7 @@ const IndexPage = () => (
         <AniLink to='/resume/' cover direction='left' bg='#546e7a' duration={1}>
           View resume
         </AniLink>
+        <SocialLinks />
       </div>
     </InteractionPanel>
     <Content>Scrollable content here</Content>
