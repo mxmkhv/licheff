@@ -1,9 +1,14 @@
 .container {
   width: 100%;
-  //   background-color: lightcyan;
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
   @media only screen and (min-width: 768px) and (orientation: landscape) {
     height: 100%;
     max-width: 40%;
     width: 100%;
+    padding: 50px 65px;
   }
 }

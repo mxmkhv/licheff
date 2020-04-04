@@ -1,12 +1,21 @@
+:root {
+  --black: #0d1f2d;
+  --red: #ea2036;
+  --white: #ffffff;
+  --blue: #083d77;
+  --lightgrey: #e6ebed;
+  --bluegray: #546e7a;
+}
+
 html,
 body,
 main {
   height: 100vh;
   margin: 0;
-  font-family: Poppins;
 }
 
 body {
+  font-size: 12px;
   background: radial-gradient(#eee 4px, transparent 4px);
   background-size: 60px 60px, 60px 60px, 100% 6px, 60px 60px, 60px 60px;
   background-position: 30px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;

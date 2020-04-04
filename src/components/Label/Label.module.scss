@@ -1,0 +1,11 @@
+.label {
+  font-family: Poppins;
+  font-weight: 600;
+  display: block;
+  color: var(--black);
+
+  &.red {
+    color: var(--red);
+    font-weight: 300;
+  }
+}
