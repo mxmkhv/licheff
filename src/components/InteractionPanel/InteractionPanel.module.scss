@@ -1,0 +1,9 @@
+.container {
+  width: 100%;
+  //   background-color: lightcyan;
+  @media only screen and (min-width: 768px) and (orientation: landscape) {
+    height: 100%;
+    max-width: 40%;
+    width: 100%;
+  }
+}

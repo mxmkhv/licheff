@@ -6,7 +6,8 @@ import Image from '../components/image';
 
 const SecondPage = () => (
   <Layout>
-    <SEO title='Page two' />
+    <SEO title='Resume' />
+    <h1>Resume</h1>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
