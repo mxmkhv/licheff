@@ -4,7 +4,7 @@ import styles from './BodyText.module.scss';
 const BodyText = props => {
   const color = props.color ? props.color : '';
   return (
-    <p className={[styles.text, styles[color]].join(' ')} style={{ 'font-size': props.size }}>
+    <p className={[styles.text, styles[color]].join(' ')} style={{ fontSize: props.size }}>
       {props.children}
     </p>
   );

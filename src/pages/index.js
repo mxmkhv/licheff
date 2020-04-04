@@ -6,6 +6,7 @@ import InteractionPanel from '../components/InteractionPanel/InteractionPanel';
 import Label from '../components/Label/Label';
 import BodyText from '../components/BodyText/BodyText';
 import Content from '../components/Content/Content';
+import Project from '../components/Project/Project';
 import SocialLinks from '../components/SocialLinks/SocialLinks';
 import Logo from '../assets/logo.svg';
 
@@ -31,7 +32,12 @@ const IndexPage = () => (
         <SocialLinks />
       </div>
     </InteractionPanel>
-    <Content>Scrollable content here</Content>
+    <Content>
+      <Project title='Konstruktive Real Estates' subtitle='Web design' accentColor='yellow' />
+      <Project title='Konstruktive Real Estates' subtitle='Web design' accentColor='green' />
+      <Project title='Konstruktive Real Estates' subtitle='Web design' accentColor='cyan' />
+      <Project title='Konstruktive Real Estates' subtitle='Web design' accentColor='yellow' />
+    </Content>
   </Layout>
 );
 

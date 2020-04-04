@@ -4,7 +4,7 @@ import styles from './Label.module.scss';
 const Label = props => {
   const color = props.color ? props.color : '';
   return (
-    <span className={[styles.label, styles[color]].join(' ')} style={{ 'font-size': props.size }}>
+    <span className={[styles.label, styles[color]].join(' ')} style={{ fontSize: props.size }}>
       {props.children}
     </span>
   );
