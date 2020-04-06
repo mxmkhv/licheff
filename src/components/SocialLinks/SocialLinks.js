@@ -8,16 +8,16 @@ import LinkedinIcon from '../../assets/linkedin.svg';
 const SocialLinks = props => {
   return (
     <div className={styles.container}>
-      <a href='https://www.behance.net' target='_blank' rel='noopener noreferrer'>
+      <a href=' https://www.behance.net/Licheff' target='_blank' rel='noopener noreferrer'>
         <BehanceIcon />
       </a>
-      <a href='https://dribbble.com' target='_blank' rel='noopener noreferrer'>
+      <a href='https://dribbble.com/licheff' target='_blank' rel='noopener noreferrer'>
         <DribbleIcon />
       </a>
-      <a href='https://www.linkedin.com/' target='_blank' rel='noopener noreferrer'>
+      <a href='https://www.linkedin.com/in/licheff' target='_blank' rel='noopener noreferrer'>
         <LinkedinIcon />
       </a>
-      <a href='https://www.instagram.com/' target='_blank' rel='noopener noreferrer'>
+      <a href='https://instagram.com/licheff.dz' target='_blank' rel='noopener noreferrer'>
         <InstagramIcon />
       </a>
     </div>
