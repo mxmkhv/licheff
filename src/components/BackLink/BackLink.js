@@ -6,7 +6,7 @@ import BackIcon from '../../assets/back.svg';
 const BackLink = props => {
   return (
     <div className={styles.link}>
-      <AniLink to='/' cover direction='right' bg='#546e7a' duration={1}>
+      <AniLink to='/' cover direction='right' bg={props.backgroundColor} duration={1}>
         <BackIcon />
       </AniLink>
     </div>

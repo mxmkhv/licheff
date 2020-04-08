@@ -1,8 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import styles from './ProjectListing.module.scss';
-import Project from '../Project/Project';
-import Img from 'gatsby-image';
+import ProjectItem from '../ProjectItem/ProjectItem';
 
 const ProjectListing = () => {
   const data = useStaticQuery(graphql`
@@ -10,7 +9,7 @@ const ProjectListing = () => {
       konstruktive: file(relativePath: { eq: "konstruktive/cover.png" }) {
         ...ImageFragment
       }
-      jarvis: file(relativePath: { eq: "gatsby-icon.png" }) {
+      jarvis: file(relativePath: { eq: "konstruktive/cover.png" }) {
         ...ImageFragment
       }
     }
@@ -18,16 +17,20 @@ const ProjectListing = () => {
 
   return (
     <div className={styles.container}>
-      <Project
+      <ProjectItem
         to='/project-konstruktive'
         title='Konstruktive Real Estates'
         subtitle='Web design'
-        accentColor='yellow'
+        accentColor='var(--konstruktive)'
         image={data.konstruktive.childImageSharp.fluid}
       />
-      <Project title='Konstruktive Real Estates' subtitle='Web design' accentColor='green' />
-      <Project title='Konstruktive Real Estates' subtitle='Web design' accentColor='cyan' />
-      <Project title='Konstruktive Real Estates' subtitle='Web design' accentColor='yellow' />
+      <ProjectItem
+        to='/project-jarvis'
+        title='Jarvis'
+        subtitle='App design'
+        accentColor='var(--jarvis)'
+        image={data.jarvis.childImageSharp.fluid}
+      />
     </div>
   );
 };

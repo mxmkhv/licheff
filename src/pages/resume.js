@@ -6,13 +6,13 @@ import Label from '../components/Label/Label';
 import BodyText from '../components/BodyText/BodyText';
 import BackLink from '../components/BackLink/BackLink';
 import Content from '../components/Content/Content';
-import Logo from '../assets/logo.svg';
+import Logo from '../components/Logo/Logo';
 
 const SecondPage = () => (
   <Layout>
     <SEO title='Resume' />
     <InteractionPanel>
-      <Logo />
+      <Logo backgroundColor='var(--red)' />
       <div>
         <Label size='2.2em'>Todor Lichev</Label>
         <Label size='1.5em' color='red'>
@@ -24,7 +24,7 @@ const SecondPage = () => (
           interest in the field of brand perceptions. A self-driven hard worker and a passionate
           freethinker who is always looking forward to expand their worldview.
         </BodyText>
-        <BackLink />
+        <BackLink backgroundColor='var(--red)' />
       </div>
     </InteractionPanel>
     <Content>Scrollable content here</Content>

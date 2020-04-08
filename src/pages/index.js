@@ -15,7 +15,7 @@ const IndexPage = () => (
     <SEO title='Hello' />
     <InteractionPanel>
       <Logo />
-      <div>
+      <div style={{ marginTop: 'auto' }}>
         <Label size='2.2em'>Todor Lichev</Label>
         <Label size='1.5em' color='red'>
           Designer
@@ -26,7 +26,7 @@ const IndexPage = () => (
           interest in the field of brand perceptions. A self-driven hard worker and a passionate
           freethinker who is always looking forward to expand their worldview.
         </BodyText>
-        <AniLink to='/resume/' cover direction='left' bg='#546e7a' duration={1}>
+        <AniLink to='/resume/' cover direction='left' bg='var(--red)' duration={1}>
           View resume
         </AniLink>
         <SocialLinks />

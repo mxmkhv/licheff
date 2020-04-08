@@ -1,9 +1,23 @@
 .container {
   position: relative;
-  height: 330px;
+  height: 400px;
   width: 100%;
-  max-width: 635px;
+  max-width: 800px;
   margin: 0 auto 3rem;
+  &:hover {
+    .accentColor {
+      max-height: 100%;
+    }
+
+    .subtitle {
+      color: var(--white);
+      background-color: var(--red);
+    }
+
+    .shadow {
+      transform: translate(0.5rem, 0.5rem);
+    }
+  }
 }
 
 .content {
@@ -14,17 +28,6 @@
   cursor: pointer;
   border: 1px solid var(--white);
   z-index: 1;
-
-  &:hover {
-    .accentColor {
-      max-height: 100%;
-    }
-
-    .subtitle {
-      color: var(--white);
-      background-color: var(--red);
-    }
-  }
 }
 
 .accentColor {
@@ -41,20 +44,21 @@
 .shadow {
   z-index: 0;
   position: absolute;
-  top: 1rem;
-  left: 1rem;
+  top: 0.5rem;
+  left: 0.5rem;
   height: 100%;
   width: 100%;
   background-color: var(--lightgrey);
+  transition: transform 300ms ease-in-out;
 }
 
 .image {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 0;
+  right: 5%;
   z-index: 2;
-  width: 60%;
+  width: 50%;
 }
 
 .title {
