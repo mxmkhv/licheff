@@ -21,7 +21,7 @@ const ProjectPage = () => {
 
   return (
     <Layout>
-      <SEO title='Hello' />
+      <SEO title='Jarvis' />
       <InteractionPanel>
         <Logo backgroundColor='var(--jarvis)' />
         <BackLink backgroundColor='var(--jarvis)' />

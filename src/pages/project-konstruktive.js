@@ -16,12 +16,15 @@ const ProjectPage = () => {
       homepage: file(relativePath: { eq: "konstruktive/homepage.jpg" }) {
         ...ImageFragment
       }
+      mobile: file(relativePath: { eq: "konstruktive/mobile-1.png" }) {
+        ...ImageFragment
+      }
     }
   `);
 
   return (
     <Layout>
-      <SEO title='Hello' />
+      <SEO title='Konstruktive' />
       <InteractionPanel>
         <Logo backgroundColor='var(--konstruktive)' />
         <BackLink backgroundColor='var(--konstruktive)' />
@@ -41,12 +44,18 @@ const ProjectPage = () => {
         </div>
       </InteractionPanel>
       <Content>
-        <div>
+        <div className='project-image-container'>
           <Label size='1.5em'>Homepage</Label>
           <Image
             objectFit='cover'
             objectPosition='50% 50%'
             fluid={data.homepage.childImageSharp.fluid}
+          />
+
+          <Image
+            objectFit='cover'
+            objectPosition='50% 50%'
+            fluid={data.mobile.childImageSharp.fluid}
           />
         </div>
       </Content>
