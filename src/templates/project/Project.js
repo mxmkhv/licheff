@@ -10,10 +10,10 @@ import BackLink from '../../components/BackLink/BackLink';
 import styles from './Project.module.scss';
 import { graphql } from 'gatsby';
 
-const ProjectPage = ({ pageContext, data: { project } }) => {
+const ProjectPage = ({ data: { project } }) => {
   return (
     <Layout>
-      <SEO title={pageContext.slug} />
+      <SEO title={project.frontmatter.title} />
       <InteractionPanel>
         <Logo backgroundColor='var(--konstruktive)' />
         <BackLink backgroundColor='var(--konstruktive)' />

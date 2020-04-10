@@ -6,31 +6,32 @@ import ProjectItem from '../ProjectItem/ProjectItem';
 const ProjectListing = () => {
   const data = useStaticQuery(graphql`
     query {
-      konstruktive: file(relativePath: { eq: "konstruktive/cover.png" }) {
-        ...ImageFragment
-      }
-      jarvis: file(relativePath: { eq: "konstruktive/cover.png" }) {
-        ...ImageFragment
+      allMarkdownRemark {
+        nodes {
+          frontmatter {
+            title
+            slug
+            category
+            image
+          }
+        }
       }
     }
   `);
 
+  const projects = data.allMarkdownRemark.nodes;
+
   return (
     <div className={styles.container}>
-      <ProjectItem
-        to='/project-konstruktive'
-        title='Konstruktive Real Estates'
-        subtitle='Web design'
-        accentColor='var(--konstruktive)'
-        image={data.konstruktive.childImageSharp.fluid}
-      />
-      <ProjectItem
-        to='/project-jarvis'
-        title='Jarvis'
-        subtitle='App design'
-        accentColor='var(--jarvis)'
-        image={data.jarvis.childImageSharp.fluid}
-      />
+      {projects.map(project => (
+        <ProjectItem
+          to={project.frontmatter.slug}
+          title={project.frontmatter.title}
+          subtitle={project.frontmatter.category}
+          accentColor='var(--konstruktive)'
+          // image={data.konstruktive.childImageSharp.fluid}
+        />
+      ))}
     </div>
   );
 };
