@@ -15,7 +15,7 @@ collections:
       preview: true
     fields:
       - { label: 'Project url', name: 'slug', widget: 'string' }
-      - { label: 'Project title', name: 'project-title', widget: 'string' }
-      - { label: 'Project category', name: 'project-category', widget: 'string' }
-      - { label: 'Project description', name: 'project-description', widget: 'string' }
+      - { label: 'Project title', name: 'title', widget: 'string' }
+      - { label: 'Project category', name: 'category', widget: 'string' }
+      - { label: 'Project description', name: 'description', widget: 'string' }
       - { label: 'Article body', name: 'article', widget: 'markdown' }
