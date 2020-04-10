@@ -1,28 +1,30 @@
-// exports.createPages = async ({ actions, graphql, reporter }) => {
-//   const result = await graphql(`
-//     query {
-//       allMarkdownRemark {
-//         nodes {
-//           frontmatter {
-//             project_title
-//           }
-//         }
-//       }
-//     }
-//   `);
+exports.createPages = async ({ actions, graphql, reporter }) => {
+  const result = await graphql(`
+    query {
+      allMarkdownRemark {
+        nodes {
+          frontmatter {
+            slug
+          }
+        }
+      }
+    }
+  `);
 
-//   if (result.errors) {
-//     reporter.panicOnBuild(`Error while running GraphQL query.`);
-//     return;
-//   }
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`);
+    return;
+  }
 
-//   const projects = result.data.allMarkdownRemark.nodes;
+  result.data.allMarkdownRemark.nodes.forEach(project => {
+    console.log(project);
 
-//   projects.forEach(({ project }) => {
-//     createPage({
-//       path: project.frontmatter.project_title,
-//       component: blogPostTemplate,
-//       context: {} // additional data can be passed via context
-//     });
-//   });
-// };
+    actions.createPage({
+      path: project.frontmatter.slug,
+      component: require.resolve('./src/templates/Project.js'),
+      context: {
+        slug: project.frontmatter.slug
+      }
+    });
+  });
+};
