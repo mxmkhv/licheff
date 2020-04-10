@@ -8,6 +8,4 @@ image: /images/cover.png
 ---
 Lorem ipsum
 
-
-
-![body-image-alt](/images/mobile-4.png "body-image")
+![body-image-alta](/images/mobile-4.png "body-image")
