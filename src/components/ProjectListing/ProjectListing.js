@@ -12,6 +12,7 @@ const ProjectListing = () => {
             title
             slug
             category
+            color
             featuredImage {
               childImageSharp {
                 fluid(maxWidth: 800) {
@@ -35,7 +36,7 @@ const ProjectListing = () => {
           to={project.frontmatter.slug}
           title={project.frontmatter.title}
           subtitle={project.frontmatter.category}
-          accentColor='var(--konstruktive)'
+          accentColor={project.frontmatter.color}
           image={project.frontmatter.featuredImage.childImageSharp.fluid}
         />
       ))}

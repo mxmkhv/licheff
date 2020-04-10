@@ -15,8 +15,8 @@ const ProjectPage = ({ data: { project } }) => {
     <Layout>
       <SEO title={project.frontmatter.title} />
       <InteractionPanel>
-        <Logo backgroundColor='var(--konstruktive)' />
-        <BackLink backgroundColor='var(--konstruktive)' />
+        <Logo backgroundColor={project.frontmatter.color} />
+        <BackLink backgroundColor={project.frontmatter.color} />
         <div>
           <Label size='2.2em'>{project.frontmatter.title}</Label>
           <Label size='1.5em' color='red'>
@@ -39,6 +39,7 @@ export const pageQuery = graphql`
         title
         slug
         category
+        color
         description
       }
       html
