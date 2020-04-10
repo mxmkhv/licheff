@@ -12,13 +12,6 @@ module.exports = {
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-netlify-cms`,
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`
-      }
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -33,16 +26,16 @@ module.exports = {
     },
     {
       resolve: `gatsby-source-filesystem`,
+      name: 'images',
       options: {
-        name: `projects`,
-        path: `${__dirname}/content/projects`
+        path: `${__dirname}/src/images`
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
+      name: 'projects',
       options: {
-        name: `projectImages`,
-        path: `${__dirname}/content/projects/images`
+        path: `${__dirname}/content/projects`
       }
     },
     {

@@ -12,7 +12,13 @@ const ProjectListing = () => {
             title
             slug
             category
-            image
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
@@ -23,13 +29,14 @@ const ProjectListing = () => {
 
   return (
     <div className={styles.container}>
-      {projects.map(project => (
+      {projects.map((project, index) => (
         <ProjectItem
+          key={`image-${index}`}
           to={project.frontmatter.slug}
           title={project.frontmatter.title}
           subtitle={project.frontmatter.category}
           accentColor='var(--konstruktive)'
-          // image={data.konstruktive.childImageSharp.fluid}
+          image={project.frontmatter.featuredImage.childImageSharp.fluid}
         />
       ))}
     </div>
