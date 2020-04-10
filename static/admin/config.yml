@@ -2,21 +2,21 @@ backend:
   name: git-gateway
   branch: master
 publish_mode: editorial_workflow
-media_folder: 'content/projects'
-public_folder: 'content/projects'
+media_folder: content/projects
 
-  - name: 'projects'
-    label: 'Project'
-    folder: 'content/projects'
+collections:
+  - name: "projects"
+    label: "Project"
+    folder: "content/projects"
     create: true
-    slug: '{{slug}}'
+    slug: "{{slug}}"
     editor:
       preview: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Category', name: 'category', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'URL', name: 'slug', widget: 'string' }
-      - { label: 'Accent color', name: 'color', widget: 'string' }
-      - { label: 'Cover image', name: 'featuredImage', widget: 'file' }
-      - { label: 'Article body', name: 'body', widget: 'markdown' }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "URL", name: "slug", widget: "string" }
+      - { label: "Accent color", name: "color", widget: "string" }
+      - { label: "Cover image", name: "featuredImage", widget: "file" }
+      - { label: "Article body", name: "body", widget: "markdown" }
