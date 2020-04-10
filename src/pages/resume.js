@@ -13,7 +13,7 @@ const SecondPage = () => (
     <SEO title='Resume' />
     <InteractionPanel>
       <Logo backgroundColor='var(--red)' />
-      <div>
+      <div className='resumeDetails'>
         <Label size='2.2em'>Todor Lichev</Label>
         <Label size='1.5em' color='red'>
           Designer
@@ -24,8 +24,8 @@ const SecondPage = () => (
           interest in the field of brand perceptions. A self-driven hard worker and a passionate
           freethinker who is always looking forward to expand their worldview.
         </BodyText>
-        <BackLink backgroundColor='var(--red)' />
       </div>
+      <BackLink backgroundColor='var(--red)' />
     </InteractionPanel>
     <Content>Scrollable content here</Content>
   </Layout>
