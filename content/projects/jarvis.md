@@ -5,7 +5,8 @@ category: App design
 description: Jarvis project description
 article: Lorem ipsum
 image: /images/cover.png
+featuredImage: /images/cover.png
 ---
 Lorem ipsum
 
-![body-image-alta](/images/mobile-4.png "body-image")
+![body-image-alt](/images/mobile-4.png "body-image")
