@@ -10,5 +10,6 @@ description: Konstruktive Real Estates is a website aiming to showcase our
   client's approval turning the UX into UI. Everything was done under the
   competent art direction of Marian Naydenov.
 article: Lorem ipsum
+image: /images/cover.png
 ---
 Lorem ipsum
