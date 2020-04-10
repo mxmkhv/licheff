@@ -23,10 +23,11 @@ const ProjectPage = ({ pageContext, data: { project } }) => {
             {project.frontmatter.category}
           </Label>
           <BodyText>{project.frontmatter.description}</BodyText>
-          <pre>{JSON.stringify(project, null, 2)}</pre>
         </div>
       </InteractionPanel>
-      <Content>{/* <div className='project-image-container'>{project.body}</div> */}</Content>
+      <Content>
+        <div>{project.excerpt}</div>
+      </Content>
     </Layout>
   );
 };
@@ -39,8 +40,8 @@ export const pageQuery = graphql`
         slug
         category
         description
-        article
       }
+      excerpt
     }
   }
 `;
