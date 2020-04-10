@@ -7,3 +7,7 @@ article: Lorem ipsum
 image: /images/cover.png
 ---
 Lorem ipsum
+
+
+
+![body-image-alt](/images/mobile-4.png "body-image")
