@@ -11,3 +11,4 @@ description: Konstruktive Real Estates is a website aiming to showcase our
   competent art direction of Marian Naydenov.
 article: Lorem ipsum
 ---
+Lorem ipsum
