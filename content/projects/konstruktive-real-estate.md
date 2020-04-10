@@ -13,4 +13,42 @@ article: Lorem ipsum
 color: "#feed17"
 featuredImage: ./cover.png
 ---
-Lorem ipsum konstruktive
+# **Lorem ipsum konstruktive**
+
+## **Lorem ipsum konstruktive**
+
+### **Lorem ipsum konstruktive**
+
+#### **Lorem ipsum konstruktive**
+
+##### **Lorem ipsum konstruktive**
+
+###### **Lorem ipsum konstruktive**
+
+**bold**
+
+*italic*
+
+
+
+> quote konstruktive
+
+
+
+1. a
+2. b
+3. c
+4. d
+
+
+
+* a
+* b
+* c
+* d
+
+
+
+
+
+[link](https://www.gatsbyjs.org/)
