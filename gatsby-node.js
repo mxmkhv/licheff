@@ -19,7 +19,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   result.data.allMarkdownRemark.nodes.forEach(project => {
     actions.createPage({
       path: project.frontmatter.slug,
-      component: require.resolve('./src/templates/Project.js'),
+      component: require.resolve('./src/templates/project/Project.js'),
       context: {
         slug: project.frontmatter.slug
       }

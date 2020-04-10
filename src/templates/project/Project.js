@@ -1,13 +1,13 @@
 import React from 'react';
-import Layout from '../components/Layout/Layout';
-import SEO from '../components/seo';
-import InteractionPanel from '../components/InteractionPanel/InteractionPanel';
-import Label from '../components/Label/Label';
-import BodyText from '../components/BodyText/BodyText';
-import Content from '../components/Content/Content';
-import Logo from '../components/Logo/Logo';
-import BackLink from '../components/BackLink/BackLink';
-// import Image from 'gatsby-image';
+import Layout from '../../components/Layout/Layout';
+import SEO from '../../components/seo';
+import InteractionPanel from '../../components/InteractionPanel/InteractionPanel';
+import Label from '../../components/Label/Label';
+import BodyText from '../../components/BodyText/BodyText';
+import Content from '../../components/Content/Content';
+import Logo from '../../components/Logo/Logo';
+import BackLink from '../../components/BackLink/BackLink';
+import styles from './Project.module.scss';
 import { graphql } from 'gatsby';
 
 const ProjectPage = ({ pageContext, data: { project } }) => {
@@ -26,7 +26,7 @@ const ProjectPage = ({ pageContext, data: { project } }) => {
         </div>
       </InteractionPanel>
       <Content>
-        <div>{project.excerpt}</div>
+        <div className={styles.content} dangerouslySetInnerHTML={{ __html: project.html }} />
       </Content>
     </Layout>
   );
@@ -41,7 +41,7 @@ export const pageQuery = graphql`
         category
         description
       }
-      excerpt
+      html
     }
   }
 `;
