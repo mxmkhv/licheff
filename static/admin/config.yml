@@ -2,9 +2,9 @@ backend:
   name: git-gateway
   branch: master
 publish_mode: editorial_workflow
-media_folder: ./
+media_folder: 'content/projects'
+public_folder: 'content/projects'
 
-collections:
   - name: 'projects'
     label: 'Project'
     folder: 'content/projects'
