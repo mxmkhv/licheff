@@ -13,6 +13,7 @@ const SecondPage = () => (
     <SEO title='Resume' />
     <InteractionPanel>
       <Logo backgroundColor='var(--red)' />
+      <BackLink backgroundColor='var(--red)' />
       <div className='resumeDetails'>
         <Label size='2.2em'>Todor Lichev</Label>
         <Label size='1.5em' color='red'>
@@ -25,7 +26,6 @@ const SecondPage = () => (
           freethinker who is always looking forward to expand their worldview.
         </BodyText>
       </div>
-      <BackLink backgroundColor='var(--red)' />
     </InteractionPanel>
     <Content>Scrollable content here</Content>
   </Layout>
