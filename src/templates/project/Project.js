@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Layout from '../../components/Layout/Layout';
 import SEO from '../../components/seo';
 import InteractionPanel from '../../components/InteractionPanel/InteractionPanel';
@@ -11,6 +11,11 @@ import styles from './Project.module.scss';
 import { graphql } from 'gatsby';
 
 const ProjectPage = ({ data: { project } }) => {
+  useEffect(() => {
+    const screen = document.getElementById('interactionPanel');
+    screen.scrollIntoView(true);
+  }, []);
+
   return (
     <Layout>
       <SEO title={project.frontmatter.title} />
