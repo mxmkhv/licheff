@@ -31,19 +31,58 @@ body {
     color: var(--bluegrey);
     text-decoration: underline;
   }
+}
 
-  .resume-link {
-    a {
-      font-family: Merriweather;
-      font-weight: 300;
-      color: var(--bluegrey);
-      text-decoration: underline;
-      transition: all 300ms ease-in-out;
+.resume-link {
+  a {
+    font-family: Merriweather;
+    font-weight: 300;
+    color: var(--bluegrey);
+    text-decoration: underline;
+    transition: all 300ms ease-in-out;
 
-      &:hover {
-        background-color: var(--red);
-        color: var(--white);
-      }
+    &:hover {
+      background-color: var(--red);
+      color: var(--white);
+    }
+  }
+}
+
+.resume-heading {
+  margin: 0 0 3rem;
+}
+
+.resume-position {
+  margin: 1rem 0 4rem;
+
+  .role {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .company {
+    margin: 0 0 1rem;
+    font-size: 1.5rem;
+  }
+
+  .period {
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: var(--bluegrey);
+    margin: 0 0 1rem;
+  }
+
+  .description {
+    font-family: Merriweather;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--bluegrey);
+    padding-left: 0;
+    margin: 0 0 1rem;
+
+    li {
+      line-height: 2rem;
+      list-style-position: inside;
     }
   }
 }

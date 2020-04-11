@@ -7,8 +7,9 @@ import BodyText from '../components/BodyText/BodyText';
 import BackLink from '../components/BackLink/BackLink';
 import Content from '../components/Content/Content';
 import Logo from '../components/Logo/Logo';
+import resume from '../../content/resume';
 
-const SecondPage = () => (
+export default () => (
   <Layout>
     <SEO title='Resume' />
     <InteractionPanel>
@@ -27,8 +28,26 @@ const SecondPage = () => (
         </BodyText>
       </div>
     </InteractionPanel>
-    <Content>Scrollable content here</Content>
+    <Content>
+      <div className='resume-heading'>
+        <Label size='2em'>{resume.title}</Label>
+        <Label size='1.5em' color='red'>
+          {resume.subtitle}
+        </Label>
+      </div>
+
+      {resume.positions.map((position, index) => (
+        <div className='resume-position' key={`position-${index}`}>
+          <h2 className='role'>{position.role}</h2>
+          <h3 className='company'>{position.company}</h3>
+          <h4 className='period'>{position.period}</h4>
+          <ul className='description'>
+            {position.description.map((item, i) => (
+              <li key={`desc-${i}`}>{item.text}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </Content>
   </Layout>
 );
-
-export default SecondPage;
