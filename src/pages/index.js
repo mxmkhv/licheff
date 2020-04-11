@@ -7,7 +7,7 @@ import Label from '../components/Label/Label';
 import BodyText from '../components/BodyText/BodyText';
 import Content from '../components/Content/Content';
 import SocialLinks from '../components/SocialLinks/SocialLinks';
-import Logo from '../assets/logo.svg';
+import Logo from '../components/Logo/Logo';
 import ProjectListing from '../components/ProjectListing/ProjectListing';
 
 const IndexPage = () => (
