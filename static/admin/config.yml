@@ -3,6 +3,7 @@ backend:
   branch: master
 publish_mode: editorial_workflow
 media_folder: content/projects
+public_folder: ./
 
 collections:
   - name: "projects"
