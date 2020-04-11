@@ -8,6 +8,7 @@ import BodyText from '../components/BodyText/BodyText';
 import Content from '../components/Content/Content';
 import SocialLinks from '../components/SocialLinks/SocialLinks';
 import Logo from '../components/Logo/Logo';
+import ContactLink from '../components/ContactLink/ContactLink';
 import ProjectListing from '../components/ProjectListing/ProjectListing';
 
 const IndexPage = () => (
@@ -26,9 +27,12 @@ const IndexPage = () => (
           interest in the field of brand perceptions. A self-driven hard worker and a passionate
           freethinker who is always looking forward to expand their worldview.
         </BodyText>
-        <AniLink to='/resume/' cover direction='left' bg='var(--red)' duration={1}>
-          View resume
-        </AniLink>
+        <div className='resume-link'>
+          <AniLink to='/resume/' cover direction='left' bg='var(--red)' duration={1}>
+            View resume
+          </AniLink>
+        </div>
+        <ContactLink />
         <SocialLinks />
       </div>
     </InteractionPanel>

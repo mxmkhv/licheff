@@ -60,13 +60,16 @@
 
 .image {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   right: 5%;
   z-index: 2;
   width: 75%;
+  height: 100%;
 
-  @media only screen and (min-width: 768px) and (orientation: landscape) {
+  img {
+    object-fit: contain !important;
+  }
+
+  @media only screen and (min-width: 1025px) and (orientation: landscape) {
     width: 50%;
   }
 }

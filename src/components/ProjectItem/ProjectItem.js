@@ -10,7 +10,7 @@ const Project = props => {
 
   if (props.image) {
     imageObj = { ...props.image };
-    image = <Image objectFit='cover' objectPosition='50% 50%' fluid={imageObj} />;
+    image = <Image objectPosition='50% 50%' fluid={imageObj} />;
   }
 
   return (

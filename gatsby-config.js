@@ -60,14 +60,8 @@ module.exports = {
         name: `Todor Lichev portfolio`,
         short_name: `Todor Lichev portfolio`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
         icon: `src/assets/favicon.png`
       }
     }
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ]
 };
