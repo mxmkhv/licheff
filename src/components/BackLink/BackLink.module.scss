@@ -39,4 +39,42 @@
       fill: var(--lightgrey);
     }
   }
+
+  .mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid var(--lightgrey);
+    background-color: var(--white);
+    z-index: 5;
+    transform: translateY(-100%);
+    transition: transform 300ms ease-in-out;
+    display: flex;
+    align-items: center;
+    @media only screen and (min-width: 768px) and (orientation: landscape) {
+      display: none;
+    }
+
+    a {
+      position: relative;
+      height: 2.5rem;
+      width: 4rem;
+      background-color: var(--lightgrey);
+      transition: all 300ms ease-in-out;
+    }
+
+    .mobileLogo {
+      margin-left: 1rem;
+      svg {
+        height: 3rem;
+        width: 3rem;
+      }
+    }
+  }
+
+  .visible {
+    transform: translateY(0);
+  }
 }

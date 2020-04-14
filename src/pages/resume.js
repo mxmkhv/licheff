@@ -36,12 +36,12 @@ export default () => {
             <Label size='1.2em' color='red' font='serif'>
               SKILL SET
             </Label>
-            <ul>
-              <li>product design</li>
-              <li>interaction design</li>
-              <li>design systems</li>
-            </ul>
           </BodyText>
+          <ul>
+            <li>product design</li>
+            <li>interaction design</li>
+            <li>design systems</li>
+          </ul>
         </div>
       </InteractionPanel>
       <Content>

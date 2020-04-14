@@ -14,7 +14,7 @@ const Project = props => {
   }
 
   return (
-    <AniLink to={props.to} cover direction='left' bg={props.accentColor} duration={1}>
+    <AniLink to={`/${props.to}`} cover direction='left' bg={props.accentColor} duration={1}>
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.accentColor} style={{ backgroundColor: props.accentColor }} />

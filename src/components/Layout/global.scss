@@ -25,6 +25,17 @@ body {
   background-size: 40px 40px;
   background-position: 20px 0px;
 
+  button,
+  a {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
   a {
     font-family: Merriweather;
     font-weight: 300;
@@ -35,6 +46,10 @@ body {
   ul {
     padding-left: 0;
     margin: 0 0 1rem;
+    font-family: Merriweather;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--bluegrey);
 
     li {
       line-height: 2rem;
@@ -60,7 +75,10 @@ body {
 }
 
 .resume-heading {
-  margin: 6rem 0 3rem;
+  margin: 0 0 3rem;
+  @media only screen and (min-width: 768px) and (orientation: landscape) {
+    margin: 6rem 0 3rem;
+  }
 }
 
 .resume-position {
@@ -81,13 +99,6 @@ body {
     font-weight: 300;
     color: var(--bluegrey);
     margin: 0 0 1rem;
-  }
-
-  .description {
-    font-family: Merriweather;
-    font-size: 1rem;
-    font-weight: 300;
-    color: var(--bluegrey);
   }
 }
 
