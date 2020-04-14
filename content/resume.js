@@ -1,6 +1,6 @@
 const resume = {
   title: 'Resume',
-  subtitle: 'Work experience',
+  subtitle: 'WORK EXPERIENCE',
   positions: [
     {
       role: 'UX / UI Designer',

@@ -31,6 +31,17 @@ body {
     color: var(--bluegrey);
     text-decoration: underline;
   }
+
+  ul {
+    padding-left: 0;
+    margin: 0 0 1rem;
+
+    li {
+      line-height: 2rem;
+      list-style-position: inside;
+      list-style-type: square;
+    }
+  }
 }
 
 .resume-link {
@@ -49,7 +60,7 @@ body {
 }
 
 .resume-heading {
-  margin: 0 0 3rem;
+  margin: 6rem 0 3rem;
 }
 
 .resume-position {
@@ -77,13 +88,6 @@ body {
     font-size: 1rem;
     font-weight: 300;
     color: var(--bluegrey);
-    padding-left: 0;
-    margin: 0 0 1rem;
-
-    li {
-      line-height: 2rem;
-      list-style-position: inside;
-    }
   }
 }
 

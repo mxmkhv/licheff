@@ -32,12 +32,22 @@ export default () => {
             interest in the field of brand perceptions. A self-driven hard worker and a passionate
             freethinker who is always looking forward to expand their worldview.
           </BodyText>
+          <BodyText>
+            <Label size='1.2em' color='red' font='serif'>
+              SKILL SET
+            </Label>
+            <ul>
+              <li>product design</li>
+              <li>interaction design</li>
+              <li>design systems</li>
+            </ul>
+          </BodyText>
         </div>
       </InteractionPanel>
       <Content>
         <div className='resume-heading'>
           <Label size='2em'>{resume.title}</Label>
-          <Label size='1.5em' color='red'>
+          <Label size='1.2em' color='red' font='serif'>
             {resume.subtitle}
           </Label>
         </div>

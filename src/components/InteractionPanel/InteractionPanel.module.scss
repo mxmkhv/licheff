@@ -2,6 +2,8 @@
   position: relative;
   box-sizing: border-box;
   padding: 2rem;
+  background-color: var(--white);
+  border-right: 1px solid var(--lightgrey);
   @media only screen and (min-width: 768px) and (orientation: landscape) {
     height: 100%;
     display: flex;
