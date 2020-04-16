@@ -8,3 +8,17 @@ color: "#663399"
 featuredImage: ./cover.png
 ---
 Lorem ipsum
+
+
+
+![alt first](10.jpg "first")
+
+
+
+
+
+some more text
+
+
+
+![alt second](6.jpg "second")
