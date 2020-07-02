@@ -2,7 +2,7 @@
 title: Jarvis
 category: App design
 description: Jarvis project description
-slug: jarvis
+slug: jarvis-app
 article: Lorem ipsum
 color: "#663399"
 featuredImage: ./cover.png
