@@ -8,7 +8,7 @@ description: Konstruktive Real Estates is a website aiming to showcase our
   UX of the project including wireframes, prototyping in InVision and after
   client's approval turning the UX into UI. Everything was done under the
   competent art direction of Marian Naydenov.
-slug: konstruktive-realestate
+slug: konstruktive-real-estate
 article: Lorem ipsum
 color: "#feed17"
 featuredImage: ./cover.png
