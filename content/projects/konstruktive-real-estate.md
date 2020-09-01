@@ -13,7 +13,7 @@ article: Lorem ipsum
 color: "#feed17"
 featuredImage: ./cover.png
 ---
-![Konstruktive homepage](homepage-min.png "Konstruktive homepage")
+![Konstruktive homepage](homepage-min.png)
 
 ![Projects](projects-min.png "Projects page")
 
