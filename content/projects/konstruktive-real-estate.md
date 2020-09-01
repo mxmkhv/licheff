@@ -21,14 +21,22 @@ featuredImage: ./cover.png
 
 ![Search](search-min.png)
 
-##### **Credits**
+#### **Credits**
 
-> Agency: Prodesign Bulgaria Client: Konstruktive Bulgaria
+> Agency: Prodesign Bulgaria
+>
+> Client: Konstruktive Bulgaria
+>
 > Art Direction: Marian Naydenov
+>
 > Graphic Design: Todor Lichev
-> UI / UX Design: Todor Lichev
+>
+> UI / UX Design: Todor Lichev 
+>
 > Front-end Development: Kostadin Terziev
+>
 > Back-end Development: Martin Mladenov
+>
 > Account Executives: Antoaneta Angelova, Marian Naydenov
 
 [www.prodesign.bg](https://www.prodesign.bg/)
