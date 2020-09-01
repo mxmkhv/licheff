@@ -13,24 +13,30 @@ article: Lorem ipsum
 color: "#feed17"
 featuredImage: ./cover.png
 ---
-![](homepage.jpg)
+![Konstruktive homepage](homepage-min.png "Konstruktive homepage")
 
-# **Lorem ipsum konstruktive**
+![Projects](projects-min.png "Projects page")
 
-## **Lorem ipsum konstruktive**
+![Project page](project-available-min.png "Product page")
 
-### **Lorem ipsum konstruktive**
+![Search](search-min.png "Search")
 
-#### **Lorem ipsum konstruktive**
+##### **Credits**
 
-##### **Lorem ipsum konstruktive**
+> ##### Agency: Prodesign Bulgaria
+>
+> ##### Client: Konstruktive Bulgaria
+>
+> ##### Art Direction: Marian Naydenov
+>
+> ##### Graphic Design: Todor Lichev
+>
+> ##### UI / UX Design: Todor Lichev
+>
+> ##### Front-end Development: Kostadin Terziev
+>
+> ##### Back-end Development: Martin Mladenov
+>
+> ##### Account Executives: Antoaneta Angelova, Marian Naydenov
 
-###### **Lorem ipsum konstruktive**
-
-**bold**
-
-**TEST?**
-
-*italic*
-
-> quote konstruktive
+www.prodesign.bg
