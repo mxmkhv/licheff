@@ -23,7 +23,7 @@ featuredImage: ./cover.png
 
 #### **Credits**
 
-—
+**—**
 
 Agency: Prodesign Bulgaria
 
