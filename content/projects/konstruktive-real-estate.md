@@ -15,28 +15,20 @@ featuredImage: ./cover.png
 ---
 ![Konstruktive homepage](homepage-min.png)
 
-![Projects](projects-min.png "Projects page")
+![Projects](projects-min.png)
 
-![Project page](project-available-min.png "Product page")
+![Project page](project-available-min.png)
 
-![Search](search-min.png "Search")
+![Search](search-min.png)
 
 ##### **Credits**
 
-> ##### Agency: Prodesign Bulgaria
->
-> ##### Client: Konstruktive Bulgaria
->
-> ##### Art Direction: Marian Naydenov
->
-> ##### Graphic Design: Todor Lichev
->
-> ##### UI / UX Design: Todor Lichev
->
-> ##### Front-end Development: Kostadin Terziev
->
-> ##### Back-end Development: Martin Mladenov
->
-> ##### Account Executives: Antoaneta Angelova, Marian Naydenov
+> Agency: Prodesign Bulgaria Client: Konstruktive Bulgaria
+> Art Direction: Marian Naydenov
+> Graphic Design: Todor Lichev
+> UI / UX Design: Todor Lichev
+> Front-end Development: Kostadin Terziev
+> Back-end Development: Martin Mladenov
+> Account Executives: Antoaneta Angelova, Marian Naydenov
 
-www.prodesign.bg
+[www.prodesign.bg](https://www.prodesign.bg/)
