@@ -7,18 +7,22 @@ article: Lorem ipsum
 color: "#663399"
 featuredImage: ./cover.png
 ---
-Lorem ipsum
+No heading
 
+**No heading bold**
 
+> Quote
 
-![alt first](10.jpg "first")
+**[Button](jarvis)**
 
+# H1
 
+## H2
 
+### H3
 
+#### H4
 
-some more text
+##### H5
 
-
-
-![alt second](6.jpg "second")
+###### H6
