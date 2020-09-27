@@ -115,6 +115,10 @@ body {
   height: 100%;
 }
 
+.gatsby-resp-image-link:hover {
+  background-color: initial !important;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
