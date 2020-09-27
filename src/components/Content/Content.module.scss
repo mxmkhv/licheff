@@ -18,7 +18,7 @@
     color: var(--black);
   }
 
-  a {
+  a:not(.gatsby-resp-image-link) {
     font-family: Merriweather;
     font-weight: 300;
     color: var(--bluegrey);
