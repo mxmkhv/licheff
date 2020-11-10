@@ -25,22 +25,20 @@ featuredImage: ./cover.png
 
 **—**
 
-Agency: Prodesign Bulgaria
+`Agency: Prodesign Bulgaria`
 
-Client: Konstruktive Bulgaria
+`Client: Konstruktive Bulgaria`
 
-Art Direction: Marian Naydenov
+`Art Direction: Marian Naydenov`
 
-Graphic Design: Todor Lichev
+`Graphic Design: Todor Lichev`
 
-UI / UX Design: Todor Lichev 
+`UI / UX Design: Todor Lichev `
 
-Front-end Development: Kostadin Terziev
+`Front-end Development: Kostadin Terziev`
 
-Back-end Development: Martin Mladenov
+`Back-end Development: Martin Mladenov`
 
-Account Executives: Antoaneta Angelova, Marian Naydenov
-
-<br/>
+`Account Executives: Antoaneta Angelova, Marian Naydenov`
 
 [www.prodesign.bg](https://www.prodesign.bg/)
