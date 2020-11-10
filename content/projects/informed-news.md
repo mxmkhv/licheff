@@ -4,22 +4,32 @@ category: Web design
 description: Need content
 slug: informed
 color: "#231f20"
-featuredImage: homepage-320-nav.png
+featuredImage: cover-inf.png
 ---
 ![Informed-homepage](homepage-hover.png)
 
-<br/>
+——
+
+<br />
+
+
 
 ![Informed-register](homepage-popup-register.png)
 
-<br/>
+——
+
+<br />
 
 ![Informed-debate](debate-default.png)
 
-<br/>
+——
+
+<br />
 
 ![Informed-article](article-default.png)
 
-<br/>
+——
+
+<br />
 
 ![Informed-contacts](contacts-default.png)
