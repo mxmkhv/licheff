@@ -13,13 +13,13 @@ article: Lorem ipsum
 color: "#feed17"
 featuredImage: ./cover.png
 ---
-![Konstruktive homepage](homepage-min.png)
+![Konstruktive homepage](homepage.png)
 
-![Projects](projects-min.png)
+![Projects](projects.png)
 
-![Project page](project-available-min.png)
+![Project page](project-available.png)
 
-![Search](search-min.png)
+![Search](search.png)
 
 #### **Credits**
 
