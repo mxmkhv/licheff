@@ -27,14 +27,14 @@ export default () => {
             Designer
           </Label>
           <BodyText>
-            A young multidisciplinary artist with a solid background in User Experience/Interfaces,
+            Multidisciplinary artist with a solid background in User Experience/Interfaces,
             Branding &amp; WEB Design. The dynamics of progress and new challenges developed a keen
             interest in the field of brand perceptions. A self-driven hard worker and a passionate
             freethinker who is always looking forward to expand their worldview.
           </BodyText>
           <BodyText>
             <Label size='1.2em' color='red' font='serif'>
-              SKILL SET
+              Skills
             </Label>
           </BodyText>
           <ul>
