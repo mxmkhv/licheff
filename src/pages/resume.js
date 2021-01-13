@@ -27,18 +27,27 @@ export default () => {
             Designer
           </Label>
           <BodyText>
-            Multidisciplinary designer with 8+ years of professional experience in the fields of user experience, mobile & web design and branding. I’m a self-driven hard worker and a passionate freethinker who is always looking forward to expanding their worldview. Constantly pushing myself to learn and adopt new technologies and find better solutions for everyday products. <br> 
-            My professional design journey started with an internship position in an advertising agency based in Sofia, Bulgaria. Working under tight deadlines and pushing my creativity to the limits, I expanded my skills and gained most of my experience. I had the chance to work on all kinds of different projects, including print, digital, social, packaging and a lot of everything. <br>
-            I found out I was passionate about creating good-looking websites and understanding the needs of their users. This led me to my current position - a UX designer at Milestone Systems - an international company focusing on IP-based video management products. Currently I’m responsible for creating a unique experience for the mobile application working closely with a whole team of professionals.
+            Multidisciplinary designer with 8+ years of professional experience in the fields of
+            user experience, mobile & web design and branding. I’m a self-driven hard worker and a
+            passionate freethinker who is always looking forward to expanding their worldview.
+            Constantly pushing myself to learn and adopt new technologies and find better solutions
+            for everyday products. <br />
+            My professional design journey started with an internship position in an advertising
+            agency based in Sofia, Bulgaria. Working under tight deadlines and pushing my creativity
+            to the limits, I expanded my skills and gained most of my experience. I had the chance
+            to work on all kinds of different projects, including print, digital, social, packaging
+            and a lot of everything. <br />I found out I was passionate about creating good-looking
+            websites and understanding the needs of their users. This led me to my current position
+            - a UX designer at Milestone Systems - an international company focusing on IP-based
+            video management products. Currently I’m responsible for creating a unique experience
+            for the mobile application working closely with a whole team of professionals.
           </BodyText>
           <BodyText>
             <Label size='1.2em' color='red' font='serif'>
               Skills
             </Label>
           </BodyText>
-          <BodyText>
-            Visual design, UI/UX design, interaction design, design systems
-          </BodyText>
+          <BodyText>Visual design, UI/UX design, interaction design, design systems</BodyText>
         </div>
       </InteractionPanel>
       <Content>
