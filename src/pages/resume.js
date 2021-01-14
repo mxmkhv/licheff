@@ -53,6 +53,7 @@ export default () => {
             </Label>
           </BodyText>
           <BodyText>Visual design, UI/UX design, interaction design, design systems</BodyText>
+          <ContactLink />
         </div>
       </InteractionPanel>
       <Content>
