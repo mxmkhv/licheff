@@ -26,6 +26,9 @@ export default () => {
           <Label size='1.5em' color='red'>
             Designer
           </Label>
+          <Label size='1.2em' color='red' font='serif'>
+            Bio
+          </Label>
           <BodyText>
             Multidisciplinary designer with 8+ years of professional experience in the fields of
             user experience, mobile & web design and branding. I’m a self-driven hard worker and a
