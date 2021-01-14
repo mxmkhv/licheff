@@ -8,6 +8,8 @@ import BackLink from '../components/BackLink/BackLink';
 import Content from '../components/Content/Content';
 import Logo from '../components/Logo/Logo';
 import resume from '../../content/resume';
+import SocialLinks from '../components/SocialLinks/SocialLinks';
+import ContactLink from '../components/ContactLink/ContactLink';
 
 export default () => {
   useEffect(() => {
@@ -54,6 +56,7 @@ export default () => {
           </BodyText>
           <BodyText>Visual design, UI/UX design, interaction design, design systems</BodyText>
           <ContactLink />
+          <SocialLinks />
         </div>
       </InteractionPanel>
       <Content>
