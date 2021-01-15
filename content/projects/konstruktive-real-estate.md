@@ -1,6 +1,6 @@
 ---
 title: Konstruktive Real Estate
-category: Web design
+category: UX/UI Design
 description: Konstruktive Real Estates is a website aiming to showcase our
   client's projects. The key features of the website include searching for
   properties based on user preferences, booking inspection hours, news about the
