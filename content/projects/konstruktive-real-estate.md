@@ -13,6 +13,8 @@ article: Lorem ipsum
 color: "#feed17"
 featuredImage: ./cover.png
 ---
+![Home](hm-min.png)
+
 ![Konstruktive homepage](homepage.png)
 
 ![Projects](projects.png)
@@ -33,7 +35,7 @@ featuredImage: ./cover.png
 
 `Graphic Design: Todor Lichev`
 
-`UI / UX Design: Todor Lichev `
+`UI / UX Design: Todor Lichev`
 
 `Front-end Development: Kostadin Terziev`
 
