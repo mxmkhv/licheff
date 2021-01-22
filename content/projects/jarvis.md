@@ -1,7 +1,7 @@
 ---
 title: Jarvis
 category: App design
-description: Jarvis project description
+description: Jarvis project description mayna
 slug: jarvis-app
 article: Lorem ipsum
 color: "#663399"
